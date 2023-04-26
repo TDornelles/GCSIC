@@ -9,14 +9,14 @@ defaults:
 
 jobs: 
   primeiro: 
-    runs-on: arch-latest
+    runs-on: ubuntu-latest
     name: Primeiro Job escrito
     steps: 
       - name: Mostrar rodando
         run: echo "teste"
     
   segundo: 
-    runs-on: arch-latest
+    runs-on: windows-latest
     name: Segundo
     steps: 
       - name: Criando Variáveis de Ambiente
